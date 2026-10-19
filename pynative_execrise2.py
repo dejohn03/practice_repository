@@ -1,15 +1,13 @@
 #ractice Problem: Iterate through the first 10 numbers (0–9). In each iteration,
 #  print the current number, the previous number, and their sum.
-
-
-
 print("printing current and provious number  sum in a range(10)")
-provious_num = 0
+
+previous_num = 0
 #loop form 0 to 9
 
-for i in range(10):
-    x_sum = provious_num + i
-    print(f"current Number {i} provious Number {provious_num} sum: {x_sum}")
+for current_num in range(10):
+    current_sum = current_num + previous_num
+    print(f"current Number {current_num} provious Number {previous_num} sum: {current_sum}")
     #update previous_num for the next loop
 
-    previous_num = i
+    previous_num = current_num
