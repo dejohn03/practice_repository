@@ -30,5 +30,3 @@ print("Result:", result)
 print("=" * 30)          
 
 
-
-
